@@ -30,5 +30,11 @@
             Console.ForegroundColor = curForegroundColor;
             Console.SetCursorPosition(curLeft, curTop);
         }
+
+        public static void ShiftCursorPosition(int leftShift = 0, int topShift = 0)
+        {
+            var (curLeft, curTop) = Console.GetCursorPosition();
+            Console.SetCursorPosition(curLeft + leftShift, curTop + topShift);
+        }
     }
 }

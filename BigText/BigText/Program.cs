@@ -10,5 +10,7 @@ ConsoleUtils.Write(
 Console.ReadLine();
 
 IPrinter printer = new BigTextPrinter();
-printer.WriteLine(text: "Текст");
+printer.Write(text: "баба");
+
+Console.ReadLine();
 
