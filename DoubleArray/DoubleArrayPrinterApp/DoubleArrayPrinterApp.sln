@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleArrayPrinterApp", "DoubleArrayPrinterApp\DoubleArrayPrinterApp.csproj", "{CC03C982-353E-4EB7-8895-9738A60C15BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayUtils", "ArrayUtils\ArrayUtils.csproj", "{9CA4C3F7-609C-4E9A-AE0B-E197CBF29510}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC03C982-353E-4EB7-8895-9738A60C15BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC03C982-353E-4EB7-8895-9738A60C15BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC03C982-353E-4EB7-8895-9738A60C15BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC03C982-353E-4EB7-8895-9738A60C15BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA4C3F7-609C-4E9A-AE0B-E197CBF29510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA4C3F7-609C-4E9A-AE0B-E197CBF29510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA4C3F7-609C-4E9A-AE0B-E197CBF29510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA4C3F7-609C-4E9A-AE0B-E197CBF29510}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F366F049-F6CA-411F-8A1C-C268346ED0ED}
+	EndGlobalSection
+EndGlobal
